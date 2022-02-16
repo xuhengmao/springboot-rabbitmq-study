@@ -23,6 +23,7 @@ public class RabbitmqProducer {
      */
     public void sendSimpleMessage(String msg){
         rabbitTemplate.convertAndSend("hello",msg);
+
     }
 
 }
